@@ -1,0 +1,89 @@
+form.custom {
+    width: 255px;
+    height: 86px;
+}
+ul#Onglets {
+    left: 20px;
+}
+a.current span {
+    margin-top: 5px;
+}
+form.custom div.custom.dropdown.medium {
+    width: 255px !important;
+}
+form.custom div.custom.dropdown  ul {
+    width: 253px;
+}
+
+textarea.medium {
+    width: 241px;
+    height: 80px;
+}
+
+div#tools {
+    width: 255px;
+    height: 15px;
+    margin-bottom: 5px;
+}
+
+a#favoris {
+    width: 15px;
+    height: 15px;
+
+    overflow: hidden;
+    display: block;
+    float: right;
+
+    background: url(/img/favoris.png) transparent bottom left no-repeat;
+}
+a#favoris.selected {
+    background: url(/img/favoris.png) transparent top left no-repeat;
+}
+a#fermer {
+    width: 15px;
+    height: 15px;
+
+    overflow: hidden;
+    display: block;
+    float: left;
+
+    background: url(/img/fermer.png) transparent top left no-repeat;
+}
+span.dueDate {
+    width: 15px;
+    height: 15px;
+
+    display: block;
+    float: left;
+    margin-right: 5px;
+
+    background: url(/img/dueDate.png) transparent bottom left no-repeat;
+}
+span.dueDay {
+    background-position: top left;
+}
+span.dueWeek {
+    background-position: center left;
+}
+
+span.projet {
+    width: 15px;
+    height: 15px;
+
+    display: block;
+    float: left;
+    margin-right: 5px;
+
+    background: url(/img/projet.png) transparent bottom left no-repeat;
+}
+
+span.fav {
+    width: 15px;
+    height: 15px;
+
+    display: block;
+    float: left;
+    margin-right: 5px;
+
+    background: url(/img/fav.png) transparent bottom left no-repeat;
+}

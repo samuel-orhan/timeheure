@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Timer</title>
+        <link rel="stylesheet" href="css/timerStyles.css">
+    </head>
+    <body>
+
+        <div id="Timer">
+            <!--<a id="ihm_gestion" href="/index" target="_blank">Interface de gestion</a>-->
+            <ul id="Onglets">
+                <li><a href="#" class="IcoCompteur active"><span class="visuallyhidden">Compteur</span></a></li>
+                <li><a href="#" class="IcoDue"><span class="visuallyhidden">Due</span></a></li>
+                <li><a href="#" class="IcoFavoris"><span class="visuallyhidden">Favoris</span></a></li>
+                <li><a href="#" class="IcoTodo"><span class="visuallyhidden">ToDo</span></a></li>
+                <li><a href="#" class="IcoReglages"><span class="visuallyhidden">Reglages</span></a></li>
+
+            </ul>
+
+            <form method="" action="" class="custom">
+                <div id="ihm_client" class="custom dropdown medium" style="width: inherit; z-index: 2;">
+                    <a class="current" href="#">maison</a>
+                    <a class="selector" href="#"></a>
+                    <ul style="width: inherit;">
+                        <li>d=skjfds sdlkjf l</li>
+
+                    </ul>
+                </div>
+
+                <div id="ihm_projet" class="custom dropdown medium" style="width: inherit; z-index: 1;">
+                    <a class="current" href="#">voiture</a>
+                    <a class="selector" href="#"></a>
+                    <ul style="width: inherit;"></ul>
+                </div>
+            </form>
+
+            <div id="compteurs" class="clearfix">
+                <div class="TpsPrevu">
+                    <span class="TextTime">Temps<br />prevu</span>
+                    <span id="ihm_prevu">02:00</span>
+                </div>
+                <div class="TpsTotal">
+                    <span class="TextTime">Temps<br />passe</span>
+                    <span id="ihm_total" >01:15</span>
+                </div>
+            </div>
+
+            <textarea class="medium" placeholder="Note ..."></textarea>
+
+            <span id="ihm_playpause">Demarrer</span>
+        </div>
+
+
+        <div id="Timer">
+            <!--<a id="ihm_gestion" href="/index" target="_blank">Interface de gestion</a>-->
+            <ul id="Onglets">
+                <li><a href="#" class="IcoCompteur"><span class="visuallyhidden">Compteur</span></a></li>
+                <li><a href="#" class="IcoDue active"><span class="visuallyhidden">Due</span></a></li>
+                <li><a href="#" class="IcoFavoris"><span class="visuallyhidden">Favoris</span></a></li>
+                <li><a href="#" class="IcoTodo"><span class="visuallyhidden">ToDo</span></a></li>
+                <li><a href="#" class="IcoReglages"><span class="visuallyhidden">Reglages</span></a></li>
+
+            </ul>
+
+            <form method="" action="" class="custom">
+                <div id="ihm_client" class="custom dropdown medium" style="width: inherit; z-index: 2;">
+                    <a class="current" href="#">maison</a>
+                    <a class="selector" href="#"></a>
+                    <ul style="width: inherit;">
+                        <li>d=skjfds sdlkjf l</li>
+
+                    </ul>
+                </div>
+
+                <div id="ihm_projet" class="custom dropdown medium" style="width: inherit; z-index: 1;">
+                    <a class="current" href="#">voiture</a>
+                    <a class="selector" href="#"></a>
+                    <ul style="width: inherit;"></ul>
+                </div>
+            </form>
+
+            <div id="compteurs" class="clearfix">
+                <div class="TpsPrevu">
+                    <span class="TextTime">Temps<br />prevu</span>
+                    <span id="ihm_prevu">02:00</span>
+                </div>
+                <div class="TpsTotal">
+                    <span class="TextTime">Temps<br />passe</span>
+                    <span id="ihm_total" >01:15</span>
+                </div>
+            </div>
+
+            <textarea class="medium" placeholder="Note ..."></textarea>
+
+            <span id="ihm_playpause">Demarrer</span>
+        </div>
+
+
+
+
+        <div id="Timer">
+            <a id="ihm_gestion" href="/index" target="_blank">Interface de gestion</a>
+
+
+            <form action="http://192.168.1.239/login" method="post" accept-charset="utf-8" id="loginform">
+
+
+
+                <input type="text" name="identity" placeholder="Utilisateur" id="identity"  />
+                <input type="password" name="password" value="" id="password" placeholder="Mot de passe"  />
+
+                <button class="fr submit">Se connecter</button>
+
+            </form>
+
+
+
+
+        </div>
+
+
+
+
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+        <script src="js/pluginTimer.js"></script>
+        <script src="js/scriptTimer.js"></script>
+
+    </body>
+</html>

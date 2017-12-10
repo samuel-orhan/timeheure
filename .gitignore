@@ -1,0 +1,7 @@
+$ cat .gitignore
+
+# Untracked files:
+
+/_OLD/*
+/bdc/*
+/application/config/database.php
