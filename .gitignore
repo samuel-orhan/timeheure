@@ -2,6 +2,7 @@ $ cat .gitignore
 
 # Untracked files:
 
+/.idea/*
 /_OLD/*
 /bdc/*
 /application/config/database.php
